@@ -40,14 +40,14 @@ Application is divided into two routes.
 
 Components are structured like 
 
-App
---header
---Main
-----Home( Connected to Store )
-------Markets (List)
----------Symbols(List)
-----Currency ( Connected to Store )
--------Currnecy detail view
----------Currency book view
+App  
+--header   
+--Main  
+----Home( Connected to Store )  
+------Markets (List)  
+---------Symbols(List)  
+----Currency ( Connected to Store )  
+-------Currnecy detail view  
+---------Currency book view  
 
 Application has two reducers both are responsible for fetching data from api.bitfinex.com. 
