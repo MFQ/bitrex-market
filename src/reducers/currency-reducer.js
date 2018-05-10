@@ -18,6 +18,7 @@ export default function reducer(state={
     case "FETCH_CURRENCY_BEGAIN": {
       return Object.assign({}, state, {
         currency: {
+          ...state.currency,
           fetching: true
         }
       });
@@ -38,6 +39,7 @@ export default function reducer(state={
     case "FETCH_CURRENCY_BOOK_BEGAIN": {
       return Object.assign({}, state, {
         book: {
+          ...state.book,
           fetching: true,
           data: Object.assign({}, state.book.data)
         }
