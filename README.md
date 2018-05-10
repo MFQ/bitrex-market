@@ -1,6 +1,6 @@
 # bitrex-market
 
-It is small cryptocurrency markets viewer. We use api.bitfinex.com API to fetch all the required information.
+It is a small cryptocurrency markets viewer. Which uses api.bitfinex.com API to fetch all the required information.
 
 
 # Setup
@@ -33,7 +33,7 @@ Most of its test coverage is also complete.
 
 # Summary 
 
-Application is divided into two parts. 
+Application is divided into two routes. 
 
 - Market list
 - Currency Detail
@@ -41,13 +41,13 @@ Application is divided into two parts.
 Components are structured like 
 
 App
-  header
-  Main
-    Home( Connected to Store )
-      Markets (List)
-        Symbols(List)
-      Currency ( Connected to Store )
-        Currnecy detail view
-        Currency book view
+--header
+--Main
+----Home( Connected to Store )
+------Markets (List)
+---------Symbols(List)
+----Currency ( Connected to Store )
+-------Currnecy detail view
+---------Currency book view
 
 Application has two reducers both are responsible for fetching data from api.bitfinex.com. 
