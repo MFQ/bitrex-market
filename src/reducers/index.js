@@ -1,6 +1,8 @@
 import { combineReducers } from "redux";
-import marketReducer from './marketReducer';
+import marketReducer from './market-reducer';
+import currencyReducer from './currency-reducer';
 
 export default combineReducers({
-  marketReducer
+  marketReducer,
+  currencyReducer
 });
