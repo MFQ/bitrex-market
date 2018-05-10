@@ -7,7 +7,7 @@ const CurrencyBookView = (props) => {
 
   const getTrs = (bids) => {
     return bids.map( (bid) => {
-      return ( <tr> {_.values(bid).map( (v) => ( <td> {v} </td> ) )} </tr>)
+      return ( <tr> {_.values(bid).map( (v) => ( <td>{v}</td> ) )} </tr>)
     })
   }
 
@@ -19,9 +19,9 @@ const CurrencyBookView = (props) => {
         <h1> {title} </h1>
         <Table>
           <thead>
-            <tr> {getThs(["Amount", "Price", "Timestamp"])} </tr>
+            <tr>{getThs(["Amount", "Price", "Timestamp"])}</tr>
           </thead>
-          <tbody> {getTrs(bids)} </tbody>
+          <tbody>{getTrs(bids)}</tbody>
         </Table>
       </div>
     );

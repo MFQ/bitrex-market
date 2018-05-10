@@ -2,7 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 import { Link } from 'react-router-dom';
 import { Button } from 'reactstrap';
-import { string, object } from 'prop-types';
+import { number, object } from 'prop-types';
 
 const Symbol = (props) => {
   return (
@@ -19,7 +19,7 @@ const Symbol = (props) => {
 };
 
 Symbol.propTypes = {
-  index: string.isRequired,
+  index: number.isRequired,
   symbolObj: object.isRequired,
 }
 
