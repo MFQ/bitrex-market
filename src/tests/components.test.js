@@ -48,7 +48,7 @@ describe('CurrencyView', () => {
 describe('Symbol', () => {
   it('should render correctly', () => {
     const output = shallow(
-      <Symbol index="1" symbolObj={{ name: 'name'}} />
+      <Symbol index={1} symbolObj={{ name: 'name'}} />
     );
     expect(shallowToJson(output)).toMatchSnapshot();
   });

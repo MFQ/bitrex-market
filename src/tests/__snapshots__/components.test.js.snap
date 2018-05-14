@@ -512,7 +512,6 @@ exports[`Symbol should render correctly 1`] = `
         >
           <thead>
             <tr>
-               
               <th
                 key="0"
               >
@@ -534,13 +533,9 @@ exports[`Symbol should render correctly 1`] = `
                 Timestamp
                  
               </th>
-               
             </tr>
           </thead>
-          <tbody>
-             
-             
-          </tbody>
+          <tbody />
         </Table>
       </div>
     </Col>
@@ -568,7 +563,6 @@ exports[`Symbol should render correctly 1`] = `
         >
           <thead>
             <tr>
-               
               <th
                 key="0"
               >
@@ -590,13 +584,9 @@ exports[`Symbol should render correctly 1`] = `
                 Timestamp
                  
               </th>
-               
             </tr>
           </thead>
-          <tbody>
-             
-             
-          </tbody>
+          <tbody />
         </Table>
       </div>
     </Col>
