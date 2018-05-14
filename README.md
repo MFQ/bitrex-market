@@ -1,6 +1,7 @@
 # bitrex-market
 
 It is a small cryptocurrency markets viewer. Which uses api.bitfinex.com API to fetch all the required information.
+https://bitrex-market.herokuapp.com
 
 
 # Setup
